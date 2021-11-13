@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: white;
+  --background: black;
+}
+
+[data-theme='light'] {
+  --background: white;
+  --foreground: black;
+}
